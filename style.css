@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Navbar section Start */
 .navbar-section{
@@ -6,7 +9,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
 
 .nav-right ul{
     display: flex;
@@ -18,16 +20,16 @@
 .nav-right ul li{
     list-style: none;
 }
+
 .nav-right ul li a{
     text-decoration: none;
     color: #252432;
     font-weight: 700;
 }
+
 .nav-right ul .nav-nth{
     color: #8987A1;
 }
-
-
 
 .nav-right{
     display: flex;
@@ -37,10 +39,59 @@
 .nav-right .cart-icon{
     margin-right: 10px;
 }
+
 .nav-right .cart-text{
     margin-right: 10px;
 }
 /* Navbar section end */
+
+
+
+
+/* Hero section Start */
+.hero-section{
+    display: flex;
+    align-items: end;
+    
+}
+
+.hero-content{
+    flex: 1;  
+}
+.hero-content h2{
+    font-size: 60px; 
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 10px;
+}
+.hero-content p{
+    font-size: 22px; 
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    color: #A7A9AE;
+    
+}
+
+.hero-image{
+    flex: 1;
+}
+
+.hero-image img{
+    width: 100%;
+}
+/* Hero section End */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
