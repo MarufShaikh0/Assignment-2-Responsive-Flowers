@@ -3,11 +3,19 @@
     padding: 0;
 }
 
+body{
+    background-color: #F5F8FF;
+}
+
 /* Navbar section Start */
+#h-top{
+    margin-top: 5px;
+}
 .navbar-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .nav-right ul{
@@ -52,6 +60,7 @@
 .hero-section{
     display: flex;
     align-items: end;
+    margin-bottom: 200px;
     
 }
 
@@ -174,8 +183,14 @@
     gap: 28px;
 }
 
+.card-section-top{
+    margin-bottom: 50px;
+    
+
+}
 .latest-card-left{
     flex: 1;
+    height: 430px;
 }
 
 
@@ -261,10 +276,86 @@
 
 
 
+/* Join section start */
+.join-section{
+    height: 533px;
+    background-image: url('./media/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    
+    
+    
+}
+
+.join-section h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    
+}
+
+.j-width{
+    display: flex;
+    justify-content: center;
+    
+}
+.join-section input{
+    max-width: 645px;
+    border: none;
+    margin: 0;
+    padding: 15px 400px 15px 5px;
+}
+.join-section button{
+    background-color: #E95A08;
+    padding: 15px 40px;
+    border: none;
+    margin: 0;
+}
+/* Join section end */
 
 
 
 
+ /* footer section start */
+ .footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    border: 1px solid red;
+ }
+ .footer-section p{
+    color: #6B7280;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+
+ }
+ .footer-section li{
+    list-style: none;
+ }
+ .footer-section a{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#6B7280 ;
+    margin: 25px 0;
+    display: inline-block;
+
+ }
+ .footer-section img{
+    margin: 0 15px;
+ }
+
+
+
+
+ /* footer section end */
 
 
 
@@ -291,12 +382,7 @@
     font-size: 20px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
-
-
-
 }
-
-
 
 
 .noto{
@@ -309,10 +395,13 @@
 
 .width{
     width: 1140px;
-    margin: 0 auto;
+    margin:120px auto;
 }
 
-section{
-    margin-bottom: 120px;
-}
+
 /* Shared Style End */
+
+/* Common Css Start */
+
+
+/* Common Css End */
