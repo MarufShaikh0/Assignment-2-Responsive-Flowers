@@ -65,7 +65,7 @@
     margin-bottom: 10px;
 }
 .hero-content p{
-    font-size: 22px; 
+    font-size: 20px; 
     font-weight: 300;
     font-family: "Inter", sans-serif;
     color: #A7A9AE;
@@ -80,6 +80,184 @@
     width: 100%;
 }
 /* Hero section End */
+
+/* Card Section start */
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    
+}
+
+.card-section-top{
+    text-align: center;
+}
+
+.card-description{
+    margin: 15px 0;
+    
+}
+
+.card-item{
+    margin: 20px 0;
+    text-align: center;
+}
+.card-item h5{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #4F5052;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-item h4{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.card-item button{
+    background-color: #E95A08;
+    padding: 10px 95px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+/* Card Section end */
+
+/* flower-plant section start */
+.flower-plant{
+    display: flex;
+    gap: 60px;
+    position: relative;
+}
+#trusted-badge{
+    position: absolute;
+    top: -75px;
+    left: 416px;
+}
+
+.fp-left{
+    flex: 1;
+}
+.fp-left img{
+    width: 100%;
+
+}
+
+.fp-right{
+    flex: 1;
+    padding-top: 55px;
+}
+.fp-right h2{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+.fp-right p{
+    margin: 20px 0;
+}
+.fp-right li{
+    margin: 20px 0;
+}
+/* flower-plant section end */
+
+/* latest-cards section start */
+.latest-cards{
+    display: flex;
+    gap: 28px;
+}
+
+.latest-card-left{
+    flex: 1;
+}
+
+
+.bg-1{
+    background-image:linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url('./media/deal-bloom.png');
+    width: 366px ;
+    height: 206px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+   
+}
+.bg-1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Noto Serif", serif;
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+.bg-1 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+.bg-2{
+    background-image:linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) ,url('./media/deal-ana.png');
+    width: 366px ;
+    height: 206px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+.bg-2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Noto Serif", serif;
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+.bg-2 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+.latest-card-right{
+    flex: 2;
+    border: 1px solid red;
+    background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url("./media/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.latest-card-right h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+.latest-card-right a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+/* latest-cards section end */
 
 
 
@@ -96,10 +274,30 @@
 
 
 /* Shared Style Start */
-.width{
-    width: 1140px;
-    margin: 0 auto;
+.orange{
+    color: #E95A08;
 }
+
+.section-title{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 45px;
+    
+}
+
+.section-description{
+    color: #A7A9AE;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+
+
+}
+
+
+
 
 .noto{
   font-family: "Noto Serif", serif;
@@ -107,5 +305,14 @@
 
 .inter {
   font-family: "Inter", sans-serif;
+}
+
+.width{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin-bottom: 120px;
 }
 /* Shared Style End */
