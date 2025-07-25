@@ -7,10 +7,12 @@ body{
     background-color: #F5F8FF;
 }
 
+
 /* Navbar section Start */
 #h-top{
-    margin-top: 5px;
+    margin-top: 20px;
 }
+
 .navbar-section{
     display: flex;
     align-items: center;
@@ -59,12 +61,14 @@ body{
 /* Hero section Start */
 .hero-section{
     display: flex;
-    /* align-items: end; */
     margin-bottom: 200px;
 }
 
 .hero-content{
     flex: 1;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .hero-content h2{
     font-size: 60px; 
@@ -78,13 +82,11 @@ body{
     font-family: "Inter", sans-serif;
     color: #A7A9AE;
     white-space: normal;
-    
 }
 
 .hero-image{
     flex: 1;
 }
-
 .hero-image img{
     width: 100%;
     display: block;
@@ -93,21 +95,19 @@ body{
 
 
 /* Card Section start */
-.card-items{
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    
-}
-
 .card-section-top{
     text-align: center;
 }
 
 .card-description{
-    margin: 15px 0;
-    
+    margin: 15px auto; 
+    width: 70%;
 }
 
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
 .card-item{
     margin: 20px 0;
     text-align: center;
@@ -120,7 +120,6 @@ body{
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
 .card-item h4{
     font-size: 22px;
     font-weight: 700;
@@ -128,10 +127,9 @@ body{
     color: #111111;
     margin-bottom: 20px;
 }
-
 .card-item button{
     background-color: #E95A08;
-    padding: 10px 95px;
+    padding: 20px 95px;
     border: none;
     font-size: 12px;
     font-weight: 400;
@@ -140,12 +138,14 @@ body{
 }
 /* Card Section end */
 
+
 /* flower-plant section start */
 .flower-plant{
     display: flex;
     gap: 60px;
     position: relative;
 }
+
 #trusted-badge{
     position: absolute;
     top: -75px;
@@ -157,6 +157,7 @@ body{
 }
 .fp-left img{
     width: 100%;
+    height: 90%;
 }
 
 .fp-right{
@@ -180,21 +181,18 @@ body{
 
 
 /* latest section start */
+.card-section-top{
+    margin-bottom: 50px;
+}
+
 .latest-cards{
     display: flex;
     gap: 28px;
-}
-
-.card-section-top{
-    margin-bottom: 50px;
-    
-
 }
 .latest-card-left{
     flex: 1;
     height: 430px;
 }
-
 
 .bg-1{
     background-image:linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url('./media/deal-bloom.png');
@@ -220,6 +218,7 @@ body{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
 }
+
 .bg-2{
     background-image:linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) ,url('./media/deal-ana.png');
     width: 366px ;
@@ -230,9 +229,7 @@ body{
     border-radius: 10px;
     margin-bottom: 25px;
     text-align: center;
-    
 }
-
 .bg-2 h2{
     font-size: 20px;
     font-weight: 700;
@@ -250,16 +247,13 @@ body{
 
 .latest-card-right{
     flex: 2;
-    border: 1px solid red;
     background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url("./media/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
     text-align: center;
     padding-top: 150px;
-    
 }
-
 .latest-card-right h2{
     font-size: 40px;
     font-weight: 700;
@@ -274,7 +268,6 @@ body{
     font-family: "Inter", sans-serif;
 }
 /* latest section end */
-
 
 
 /* Join section start */
@@ -295,68 +288,64 @@ body{
     font-family: "Noto Serif", serif;
     color: #FFFFFF;
     margin-bottom: 40px;
-    
 }
 
 .j-width{
     display: flex;
     justify-content: center;
-    
 }
+
 .join-section input{
     max-width: 645px;
     border: none;
     margin: 0;
     padding: 15px 400px 15px 10px;
 }
+
 .join-section button{
     background-color: #E95A08;
     padding: 15px 40px;
     border: none;
     margin: 0;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 /* Join section end */
 
 
 
 
- /* footer section start */
- .footer-section{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    border: 1px solid red;
- }
- .footer-section p{
-    color: #6B7280;
-    font-size: 22px;
-    font-family: "Inter", sans-serif;
+/* footer section start */
+.footer-section{
+   display: flex;
+   justify-content: space-between;
+   align-items:flex-start;
+}
 
- }
- .footer-section li{
-    list-style: none;
- }
- .footer-section a{
-    text-decoration: none;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    color:#6B7280 ;
-    margin: 25px 0;
-    display: inline-block;
+.footer-section p{
+   color: #6B7280;
+   font-size: 22px;
+   font-family: "Inter", sans-serif;
+}
+.footer-section li{
+   list-style: none;
+}
+.footer-section a{
+   text-decoration: none;
+   font-weight: 400;
+   font-family: "Inter", sans-serif;
+   color:#6B7280 ;
+   margin: 25px 0;
+   display: inline-block;
+}
+.footer-section img{
+   margin: 0 15px;
+}
 
- }
- .footer-section img{
-    margin: 0 15px;
- }
-
-
-
-
- /* footer section end */
-
-
-
-
+.footer-one img{
+   margin-bottom: 20px;
+}
+/* footer section end */
 
 
 
@@ -371,7 +360,6 @@ body{
     font-weight: 700;
     color: #000000;
     font-size: 45px;
-    
 }
 
 .section-description{
@@ -380,7 +368,6 @@ body{
     font-weight: 400;
     font-family: "Inter", sans-serif;
 }
-
 
 .noto{
   font-family: "Noto Serif", serif;
@@ -394,11 +381,5 @@ body{
     width: 1140px;
     margin:120px auto;
 }
-
-
 /* Shared Style End */
 
-/* Common Css Start */
-
-
-/* Common Css End */
