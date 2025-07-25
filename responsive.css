@@ -173,5 +173,9 @@
         font-size: 3.2rem;
         font-weight: 500;
     }  
+
+    .footer-three img{
+        width: 100px;
+    }
 }
  /* footer section End */
