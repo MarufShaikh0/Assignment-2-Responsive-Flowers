@@ -71,6 +71,7 @@
 .flower-plant{
     flex-direction: column;
     padding: 0 10px;
+    margin: 50px 20px;
 }
 .fp-right{
     width: 80%;
@@ -84,6 +85,7 @@
 /* latest section start */
 @media screen and (max-width:768px) {
     .latest-section{
+        margin: 0 20px;
   
     }
     .latest-cards{
@@ -117,17 +119,9 @@
 /* Join section start */
 @media screen and (max-width:768px) {
     .join-section{
-    /* background-image: url('./media/news-letter-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 533px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; */
-    width: 1140px;
-    
-       }
+    width: 1180px;
+    margin: 50px 5px 50px 5px;
+    }
 
 
     .join-section input{
@@ -139,3 +133,19 @@
     
 }
 /* Join section End */
+
+ /* footer section start */
+@media screen and (max-width:768px) {
+      .footer-section{
+    /* display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    border: 1px solid red; */
+    flex-direction: column;
+    margin: 0 20px;
+ }
+
+    
+}
+
+ /* footer section End */
