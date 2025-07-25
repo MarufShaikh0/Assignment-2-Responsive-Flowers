@@ -59,9 +59,8 @@ body{
 /* Hero section Start */
 .hero-section{
     display: flex;
-    align-items: end;
+    /* align-items: end; */
     margin-bottom: 200px;
-    
 }
 
 .hero-content{
@@ -74,10 +73,11 @@ body{
     margin-bottom: 10px;
 }
 .hero-content p{
-    font-size: 20px; 
+    font-size: 22px; 
     font-weight: 300;
     font-family: "Inter", sans-serif;
     color: #A7A9AE;
+    white-space: normal;
     
 }
 
@@ -87,8 +87,10 @@ body{
 
 .hero-image img{
     width: 100%;
+    display: block;
 }
 /* Hero section End */
+
 
 /* Card Section start */
 .card-items{
@@ -155,7 +157,6 @@ body{
 }
 .fp-left img{
     width: 100%;
-
 }
 
 .fp-right{
@@ -177,7 +178,8 @@ body{
 }
 /* flower-plant section end */
 
-/* latest-cards section start */
+
+/* latest section start */
 .latest-cards{
     display: flex;
     gap: 28px;
@@ -203,8 +205,6 @@ body{
     border-radius: 10px;
     margin-bottom: 25px;
     text-align: center;
-    
-   
 }
 .bg-1 h2{
     font-size: 20px;
@@ -257,6 +257,7 @@ body{
     border-radius: 15px;
     text-align: center;
     padding-top: 150px;
+    
 }
 
 .latest-card-right h2{
@@ -272,22 +273,27 @@ body{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
 }
-/* latest-cards section end */
+/* latest section end */
 
 
 
 /* Join section start */
 .join-section{
-    height: 533px;
     background-image: url('./media/news-letter-bg.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 533px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid black;
     
+
+}
+
+
+
+.container{
     
     
 }

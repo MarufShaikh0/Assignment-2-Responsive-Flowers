@@ -3,3 +3,139 @@
 .hide{
     display: none;
 }
+
+/* Navbar section Start */
+@media screen and (max-width:768px) {
+    .nav-right ul{
+        display: none;
+
+    }
+    .navbar-section{
+        justify-content: space-around;
+        margin: 50px;
+    }
+    .nav-right{
+    font-size: 2rem;
+}
+    
+}
+/* Navbar section end */
+
+/* Hero section Start */
+@media screen and (max-width:768px) {
+    .hero-section{
+    flex-direction: column-reverse;
+    gap: 100px;
+}
+
+.hero-content{
+    width: 95%;
+    margin: auto;
+}
+
+.hero-content p{
+    font-size: 22px; 
+    
+}
+.hero-image{
+    max-width: 100%;
+}
+.hero-image img{
+    width: 100%;
+}
+}
+/* Hero section Start */
+
+/* card section start */
+@media screen and (max-width:768px) {
+    .card-items{
+    grid-template-columns: repeat( 2 ,1fr);
+}
+.card-section-top{
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+}
+
+/* card section End */
+
+/* flower-plant section start */
+@media screen and (max-width:768px) {
+    
+#trusted-badge{
+    display: none;
+}
+
+.flower-plant{
+    flex-direction: column;
+    padding: 0 10px;
+}
+.fp-right{
+    width: 80%;
+    margin: auto;
+    
+}  
+    
+}
+/* flower-plant section end */
+
+/* latest section start */
+@media screen and (max-width:768px) {
+    .latest-section{
+  
+    }
+    .latest-cards{
+    flex-direction: column;
+    }
+
+    .bg-1{
+    width: 100% ;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .bg-2{
+    width: 100% ;
+    background-size: cover; }
+
+
+.latest-card-right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+
+}
+
+}
+/* latest section end */
+
+/* Join section start */
+@media screen and (max-width:768px) {
+    .join-section{
+    /* background-image: url('./media/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 533px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    width: 1140px;
+    
+       }
+
+
+    .join-section input{
+    max-width: 645px;
+    border: none;
+    margin: 0;
+    padding: 15px 200px 15px 5px;
+}
+    
+}
+/* Join section End */
